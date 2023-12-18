@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('header-background1.jpg'); /* Set your background image here */
+            background-size: cover;
+            background-position: top center; /* Adjust the position as needed */
+            color: white;
+            font-family: Garamond, serif;
+            font-size: 18px;
+        }
+
+        header {
+            background: transparent; /* Adjust the gradient opacity and colors here */
+            color: rgb(24, 2, 44);
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000; /* Ensure the header is above other elements */
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(24, 2, 44);
+            font-size: 22px;
+        }
+
+        .main-content {
+            max-width: 800px;
+            margin: 120px auto;
+            padding: 20px;
+            color: black; /* Update the text color to black */
+            text-align: center;
+            background-color: transparent; /* Set the background color to transparent */
+            font-size: 20px;
+        }
+
+        footer {
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)); /* Adjust the gradient opacity and colors here */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <title>Product Review Website</title>
+</head>
+<body>
+    <header>
+        <h1>Product Review Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sample-product.html">Sample Product</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <h2>Welcome!!</h2>
+        <p>Explore our reviews and find the best products on the market.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Product Review Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

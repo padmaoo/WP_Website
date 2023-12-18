@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>About Us</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('about-background.jpeg'); /* Set your background image here */
+            background-size: cover;
+            background-position: 50% 39%; /* Adjust the position as needed */
+            color: white;
+            font-family: Garamond, serif;
+            font-size: 18px;
+        }
+
+        header {
+            background-color: transparent;
+            color: rgb(24, 2, 44);
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(24, 2, 44);
+            font-size: 22px;
+        }
+
+        .main-content {
+            max-width: 800px;
+            margin: 120px auto;
+            padding: 40px;
+            color: black; /* Update the text color to black */
+            text-align: center;
+            background-color:transparent; /* Set the background color to transparent */
+            font-size: 25px;
+        }
+        .main-content h2,
+        .main-content p {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: transparent;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Product Review Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sample-product.html">Sample Product</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <h2>About Us</h2>
+        <p>We are a team of passionate reviewers dedicated to helping you make better decisions about products. Our mission is to provide honest and unbiased reviews to assist you in finding the best products that suit your needs.</p>
+        <p>With years of experience in testing and evaluating various products, we take pride in delivering valuable insights. Whether you are looking for the latest beauty products, or popular brands, we've got you covered.</p>
+        <p>Feel free to explore our reviews and discover top-rated products that have earned our stamp of approval. Your satisfaction is our priority, and we strive to be your go-to source for reliable product information.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Product Review</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
